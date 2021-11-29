@@ -1,0 +1,79 @@
+.header{
+    text-align: center; 
+    background-color: #74bbfb; 
+    margin: 0;
+    font-family: cursive;
+    color: #36454F;
+}
+
+.error{
+    color: red;
+    font-family: poppins, roboto;
+}
+.formContainer{
+    width: 80vw;
+    display: inline;
+    justify-content: space-between;
+}
+
+.inputCity{
+    width: 30vw;
+    height: 7vh;
+    font-size: 1em;
+    background-color: transparent; 
+    border: none;
+    border-bottom: solid 1px black;   
+    outline: none;
+    color: black;
+    margin-right: 10px;
+}
+
+button{
+    width: 10vw;
+    height: 7vh;
+    background-color: transparent;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    opacity: .5;
+}
+
+button:active{
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    transform: scale(0.95);
+}
+
+@media only screen and (max-width: 600px){
+
+    .formContainer{
+        display: inline;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 5vh;
+    }
+    .inputCity{
+        width: 50vw ;
+        height: 5vh;
+    }
+    button{
+        width: 30vw;
+        height: 5vh;
+    }
+
+    p{
+        width: 70%;
+        margin: auto;
+        font-size: large;
+    }
+}
+
