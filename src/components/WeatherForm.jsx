@@ -24,7 +24,7 @@ function WeatherForm(props) {
                 seterror(false);
                 setcity('')
     
-                if (response.weather == undefined){
+                if (response.weather === undefined){
                     seterror(true)
                 }
                 else{
